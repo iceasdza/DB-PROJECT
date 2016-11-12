@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5C38755-1D18-4473-2F43-F1CE5606766A" name="AnimalType">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 11:59:42 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="typeId" id="C3B22F5B-30AC-3C64-1E8F-68D9611AC763">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 12:04:07 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AreId" id="DA2BFA86-0A7C-5210-FDFB-FE7409345F3F">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 12:08:25 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StaffId" id="A0C095CB-D803-8B66-043C-ED9A06B82B63">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 12:08:25 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="767E11A4-B2FD-7BDB-A4DE-421EABDFE264" name="AnimalType_PK">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 12:04:07 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3B22F5B-30AC-3C64-1E8F-68D9611AC763"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

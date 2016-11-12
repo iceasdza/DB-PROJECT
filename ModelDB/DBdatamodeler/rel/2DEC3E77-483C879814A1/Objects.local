@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="721730C5-4915-B885-5ADF-EBEF188D282B" name="Animal" seqName="seg_0"/>
+   <object objectType="Table" objectID="703C3CB1-78DA-7595-C9E4-22687CA2E3BB" name="AnimalFood" seqName="seg_0"/>
+   <object objectType="Table" objectID="C5C38755-1D18-4473-2F43-F1CE5606766A" name="AnimalType" seqName="seg_0"/>
+   <object objectType="Table" objectID="0A316651-E00F-5DB1-8B79-9CD1788FCBAF" name="Area" seqName="seg_0"/>
+   <object objectType="Table" objectID="8961449A-BB2E-F3CB-79F0-DB91B5F4A92E" name="FoodId" seqName="seg_0"/>
+   <object objectType="Table" objectID="601D3CE5-B5C1-10EC-57BE-8794747CF45C" name="Position" seqName="seg_0"/>
+   <object objectType="Table" objectID="C5F5F7B7-E93F-E269-52B0-08A2454CF4F4" name="Staff" seqName="seg_0"/>
+   <object objectType="Table" objectID="D255A35D-F3EF-506F-60C0-20841A9FE8F0" name="Ticket" seqName="seg_0"/>
+   <object objectType="Table" objectID="67C38AE0-74E2-5E16-8643-C540C1CF404E" name="Transaction" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D255A35D-F3EF-506F-60C0-20841A9FE8F0" name="Ticket">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 13:38:45 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tickettypeId" id="D5F8E52D-41E4-B8B9-E56C-F8AFD1629D5C">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 13:46:10 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E76A6057-F644-F0A0-3700-077D8F5B194C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tranDescription" id="4F8E56AA-8902-E611-6295-D14CD46ABDAE">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 13:46:10 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="FD0A96D0-827C-3578-E22B-22C0562692A1">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 13:46:10 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ticketChild" id="0B07BF5E-EE02-2E08-24BE-D5B94B61FE19">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 13:46:10 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ticketAdult" id="AA47CD48-4764-173D-2A4E-AD2B5629FE74">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 13:46:10 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4AD38DE-F45B-692C-8D80-4A49BE5522A2" name="Ticket_PK">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 13:46:10 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5F8E52D-41E4-B8B9-E56C-F8AFD1629D5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

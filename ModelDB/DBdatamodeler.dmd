@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DBdatamodeler" id="6DBD32EC-C868-FD4E-BD68-7715612B8143" version="3.5">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 11:59:32 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6DBD32EC-C868-FD4E-BD68-7715612B8143</designId>
+</OSDM_Design>

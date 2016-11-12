@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A316651-E00F-5DB1-8B79-9CD1788FCBAF" name="Area">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 12:19:05 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AreaId" id="5313306F-B227-2F1A-74BE-9F2CEB2B32C7">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 12:45:14 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E76A6057-F644-F0A0-3700-077D8F5B194C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Width(meter)" id="BCA98388-F1F6-3573-CDE8-4398125E7A31">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 12:45:14 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E76A6057-F644-F0A0-3700-077D8F5B194C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StaffId" id="29054B8A-9D59-F126-4D57-F6CF9DDFB2D8">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 12:45:14 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E76A6057-F644-F0A0-3700-077D8F5B194C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AreaType" id="DFE0F62A-1AE3-87C2-B881-7FF2449B73AF">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 12:45:14 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>925F7DC4-8922-1D8F-844B-C773044F01E5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AnimalId" id="918842EB-9BA3-6F1E-DACB-D5FADE69DD91">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 12:45:14 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E76A6057-F644-F0A0-3700-077D8F5B194C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D51C4916-5207-4289-0087-F85767C0BADA" name="Area_PK">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 12:45:14 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5313306F-B227-2F1A-74BE-9F2CEB2B32C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

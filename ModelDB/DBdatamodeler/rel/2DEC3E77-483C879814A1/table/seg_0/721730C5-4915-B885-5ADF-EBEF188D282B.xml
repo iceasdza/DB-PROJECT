@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="721730C5-4915-B885-5ADF-EBEF188D282B" name="Animal">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 12:08:26 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AnimalId" id="4BA9B1B1-E9DD-39EF-B3B2-3C7003C140CC">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 12:11:26 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TypeId" id="973FCC94-0E58-4881-A98C-5D97F083A268">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 12:11:26 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AnimalName" id="C1E038DE-823A-8113-C6E7-1B27FECB392F">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 12:11:26 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AnimalStatus" id="D258E020-04FE-1BE9-1217-BADBE8685E85">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 12:11:26 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD09CB6E-CE14-DCD2-7F9C-FB7135B45BC6" name="Animal_PK">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-12 12:11:26 UTC</createdTime>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BA9B1B1-E9DD-39EF-B3B2-3C7003C140CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
