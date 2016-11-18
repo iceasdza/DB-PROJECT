@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FEE04A86-414A-617B-4DED-1168E7336C47" name="Ticket">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>D255A35D-F3EF-506F-60C0-20841A9FE8F0</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tickettypeId" id="A94C2156-ECD5-D00C-5017-36008F8B8F02">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>D5F8E52D-41E4-B8B9-E56C-F8AFD1629D5C</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tranDescription" id="7C367087-42A6-C3F4-89F3-BE9D5193A8F0">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>4F8E56AA-8902-E611-6295-D14CD46ABDAE</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="A02A44B1-C0AA-AC6B-493E-A7D740030B87">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>FD0A96D0-827C-3578-E22B-22C0562692A1</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ticketChild" id="918C87CA-CDCF-7B2F-BEFB-C2C2FA95A1AC">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>0B07BF5E-EE02-2E08-24BE-D5B94B61FE19</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ticketAdult" id="EC89C502-3524-73CA-A14D-1107BC057E02">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>AA47CD48-4764-173D-2A4E-AD2B5629FE74</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="59B67DB6-8913-5708-234C-864B8BD35862" name="Ticket PK">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>F4AD38DE-F45B-692C-8D80-4A49BE5522A2</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A94C2156-ECD5-D00C-5017-36008F8B8F02</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8AE540E6-02F3-B57B-9ACF-5EAB66C4A42D" name="Staff">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>C5F5F7B7-E93F-E269-52B0-08A2454CF4F4</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="StaffId" id="6CCCD11E-6B7E-930F-8DDC-49F7B6FAADD8">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>FA688C77-4581-2872-6F94-3039E6909700</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DateOfBirth" id="EBCC9139-3ADE-D0D7-A396-B678039FE168">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>9CE7F3EC-7509-3CE1-A767-5CF73F0CEC99</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Lname" id="78323AF2-0495-C52E-DB8F-D95F79C05E40">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>2C71FD2E-3C3D-E36D-2DD7-67D96DB9CBF7</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Lname2" id="D12C36A2-DE30-2EA8-3B59-8D4C9927DC4F">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>D851371F-9D4F-44C5-5AF7-4E8E68F41998</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AreaId" id="10FE52BA-E9C9-7C5D-12AD-73B1FE68DD7E">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>4EF25E04-A0DE-C0F3-E603-90819387C5D4</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Position id" id="E1463F81-E6A6-F274-952B-0E4FEC6EF30C">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>E12EB0A8-0673-F33B-5AD2-3F2D66A80EEC</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="54F6EABC-5055-A958-E16C-646A7A849C23" name="Staff PK">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>9B488B6D-FC16-D129-D77C-06964905C2B5</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6CCCD11E-6B7E-930F-8DDC-49F7B6FAADD8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

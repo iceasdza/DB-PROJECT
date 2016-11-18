@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3D5CE6FC-5785-0426-713C-016BCCD0B0D7" name="FoodId">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>8961449A-BB2E-F3CB-79F0-DB91B5F4A92E</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Food์InfoNo" id="B22E55A1-D9BA-1E7A-049F-D7F1620462B6">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>B30AC43F-AA68-7323-6552-CDDCF9582D84</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FoodName" id="D3029BFA-8CA2-B778-D817-5F84AF7BB4B4">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>54DD3511-AEB5-744B-93F3-CE7EF0E61296</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FoodPrice" id="F117C1ED-FAA0-2C6E-C8E4-ED63EA1B2E95">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>3D038525-64EC-1D53-4E47-EA22FAE46CBA</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EXP DATE" id="6C3C4745-EC88-FC05-93B0-2912A94EA646">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>83DC8B9A-9429-D28C-45F2-8C2008BD4953</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FoodId" id="5E6E422A-818C-6A95-B837-8CD97FB8CED9">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>F8E476D6-6F15-E355-93A2-279459FD6950</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FoodId1" id="2329959F-0C2F-34B4-3905-C1A83BBB451F">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 02:06:13 UTC</createdTime>
+<generatorID>7A8B7BD7-1B01-18F8-CDC2-8298045DC5E7</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<referedAttribute>8D4B37AB-F599-1F03-228D-3654516A5F60</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="569A5E83-9655-2503-CB28-BA577669C085" name="AnimalFood PKv2">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>C97A3CBC-D90C-80A1-BFD7-C06132064E4F</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B22E55A1-D9BA-1E7A-049F-D7F1620462B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

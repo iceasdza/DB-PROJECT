@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B7533B4E-3546-9C5A-59EB-339B4D5AEE83" name="Area">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>0A316651-E00F-5DB1-8B79-9CD1788FCBAF</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AreaId" id="A1AFE3D7-CE4A-3DE0-8D9B-8D0874BE1707">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>5313306F-B227-2F1A-74BE-9F2CEB2B32C7</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Width(meter)" id="123D9DF4-331E-5B25-5488-AAFCB7ABFCC9">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>BCA98388-F1F6-3573-CDE8-4398125E7A31</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StaffId" id="CE93F649-D36C-C4F1-C70E-976BFBCC3064">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>29054B8A-9D59-F126-4D57-F6CF9DDFB2D8</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AreaType" id="6A06DE8A-F714-F9AD-92DB-37BBFA548E0B">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>DFE0F62A-1AE3-87C2-B881-7FF2449B73AF</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AnimalId" id="A3CE45F8-4E51-42C7-5C1D-06F59D3E5BFC">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>918842EB-9BA3-6F1E-DACB-D5FADE69DD91</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StaffId1" id="2FD8102A-83ED-45BF-AC92-22EED1712FCF">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:59:59 UTC</createdTime>
+<generatorID>7A28BC86-5AB4-712D-6AE7-2CB498C4087F</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<referedAttribute>6CCCD11E-6B7E-930F-8DDC-49F7B6FAADD8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AnimalId1" id="71B1D67A-5690-AA15-7D77-4B4033D08C56">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 02:03:39 UTC</createdTime>
+<generatorID>044CF82A-D584-9601-6CCF-C7DFEA62EC8E</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<referedAttribute>7312EF21-BAEC-0D70-63E8-AB4BCBBE8BA9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B1C51B37-DE55-286E-229B-2CC8ACAB0E9F" name="Area PK">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>D51C4916-5207-4289-0087-F85767C0BADA</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A1AFE3D7-CE4A-3DE0-8D9B-8D0874BE1707</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

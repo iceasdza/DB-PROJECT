@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40DDBAB1-2430-7189-EDBC-A579419CCEC1" name="Position">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>601D3CE5-B5C1-10EC-57BE-8794747CF45C</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PositionId" id="0F986BF4-DB03-4E97-9BFB-50ACB6E930BF">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>C7685862-96EA-A1AA-ABE2-A1F6A416BF0A</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PositionName" id="29CD1C99-4FC0-12AC-2AA0-9E9202FBFD16">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>612330C6-66F8-FACF-C21A-E6005AF62A62</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Salary" id="D9181166-28B7-B821-885B-12D8FF90FA55">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>4F69CDBD-7845-BFB1-F2EA-E63CDC6673E1</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StaffId" id="27E3AD2E-278B-6239-79B2-D3F51BC65B78">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:54:39 UTC</createdTime>
+<generatorID>EF9957A8-F1E0-1D10-B934-44A5D08ABCEA</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<referedAttribute>6CCCD11E-6B7E-930F-8DDC-49F7B6FAADD8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2212F6C3-7C0A-297D-6553-D1F7104C2662" name="Position PK">
+<createdBy>patiz</createdBy>
+<createdTime>2016-11-14 01:53:05 UTC</createdTime>
+<generatorID>5BF50719-A672-79A5-D54F-2C702C12EADF</generatorID>
+<ownerDesignName>DBdatamodeler</ownerDesignName>
+<engineerTo>
+<item key="2DEC3E77-B6C8-DDF6-0A84-483C879814A1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0F986BF4-DB03-4E97-9BFB-50ACB6E930BF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
